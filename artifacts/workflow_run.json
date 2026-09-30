@@ -1,0 +1,26 @@
+{
+  "project": "Flavors of Cacao Rating Prediction",
+  "run_commands": [
+    {
+      "command": "/opt/pyvenv/bin/python -m src.validate_data",
+      "returncode": 0,
+      "stdout": "Data validation passed.\nRows: 1795 Columns: 9\nMissing values by column:\nCompany              0\nBean_Origin_Bar      0\nREF                  0\nReview_Year          0\nCocoa_Percent        0\nCompany_Location     0\nRating               0\nBean_Type            1\nBroad_Bean_Origin    1\n"
+    },
+    {
+      "command": "/opt/pyvenv/bin/python -m src.preprocess",
+      "returncode": 0,
+      "stdout": "Preprocessing complete: /mnt/data/flavors-of-cacao-mlops-expanded/flavors-of-cacao-mlops/data/processed/processed_flavors_of_cacao.csv\nShape: (1795, 9)\n"
+    },
+    {
+      "command": "/opt/pyvenv/bin/python -m src.train",
+      "returncode": 0,
+      "stdout": "Model saved to: /mnt/data/flavors-of-cacao-mlops-expanded/flavors-of-cacao-mlops/models/random_forest_regressor.joblib\nTraining data: (1436, 8) Testing data: (359, 8)\n"
+    },
+    {
+      "command": "/opt/pyvenv/bin/python -m src.evaluate",
+      "returncode": 0,
+      "stdout": "{\n  \"MAE\": 0.3377878365831012,\n  \"RMSE\": 0.43852843706129324,\n  \"R2\": 0.1680878419484768,\n  \"CV_MAE_mean\": 0.36853249767873725\n}\n"
+    }
+  ],
+  "note": "Run outputs were generated using the project's supporting scripts where execution succeeded."
+}

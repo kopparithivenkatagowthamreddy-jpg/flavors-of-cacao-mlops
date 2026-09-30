@@ -1,0 +1,51 @@
+{
+  "project": "Flavors of Cacao Rating Prediction",
+  "model_name": "Flavors_of_Cacao_Rating_Model",
+  "description": null,
+  "registered_versions_count": 2,
+  "versions": [
+    {
+      "version": "1",
+      "run_id": "32d748d567074f499b032cb15d4be520",
+      "status": "READY",
+      "lifecycle_stage": "production",
+      "validation_status": "metric_compared",
+      "metrics": {
+        "MAE": 0.3377878365831012,
+        "RMSE": 0.43852843706129324,
+        "R2": 0.1680878419484768,
+        "CV_MAE_mean": 0.36853249767873725
+      },
+      "parameters": {
+        "model_type": "RandomForestRegressor",
+        "n_estimators": "300",
+        "random_state": "42",
+        "test_size": "0.2",
+        "target": "Rating"
+      },
+      "source": "models:/m-21646bfa2e094e158b3656f1f3adfc55"
+    },
+    {
+      "version": "2",
+      "run_id": "95e277901bc9439388d79923feb95eb6",
+      "status": "READY",
+      "lifecycle_stage": "candidate",
+      "validation_status": "pending",
+      "metrics": {
+        "MAE": 0.3377878365831012,
+        "RMSE": 0.43852843706129324,
+        "R2": 0.1680878419484768,
+        "CV_MAE_mean": 0.36853249767873725
+      },
+      "parameters": {
+        "model_type": "RandomForestRegressor",
+        "n_estimators": "300",
+        "random_state": "42",
+        "test_size": "0.2",
+        "target": "Rating"
+      },
+      "source": "models:/m-4cdb542720544cf892c051748e13f2fc"
+    }
+  ],
+  "generated_note": "This report summarizes registry metadata and logged metrics; it does not independently certify production readiness."
+}

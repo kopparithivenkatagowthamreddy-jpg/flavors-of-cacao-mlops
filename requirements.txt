@@ -1,0 +1,13 @@
+# Core notebook and machine-learning dependencies
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+scikit-learn>=1.3
+joblib>=1.3
+jupyter>=1.0
+ipykernel>=6.0
+
+# MLOps / validation extras used by the supporting project scripts
+mlflow>=2.10
+pandera>=0.18

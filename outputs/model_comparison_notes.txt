@@ -1,0 +1,1 @@
+This comparison contains the metric values provided by the user from their notebook run. The freshly trained model files may have different metrics if library versions or tuning settings differ. Run `python -m src.train_all_models` to regenerate all five saved model pipelines and write a new evaluation table to model_comparison_latest.csv.

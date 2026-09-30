@@ -1,0 +1,10 @@
+{
+  "status": "PASSED",
+  "required_outputs": [
+    "data\\processed\\processed_flavors_of_cacao.csv",
+    "models\\random_forest_regressor.joblib",
+    "outputs\\regression_metrics.json",
+    "artifacts\\split_data.json"
+  ],
+  "missing_outputs": []
+}

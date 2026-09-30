@@ -1,0 +1,21 @@
+{
+  "dataset": "data\\raw\\flavors_of_cacao.csv",
+  "processed_dataset": "data\\processed\\processed_flavors_of_cacao.csv",
+  "raw_shape": [
+    1795,
+    9
+  ],
+  "processed_shape": [
+    1795,
+    9
+  ],
+  "duplicate_rows_removed": 0,
+  "target": "Rating",
+  "problem_type": "regression",
+  "preprocessing_steps": [
+    "clean column names",
+    "convert Cocoa Percent to numeric",
+    "convert REF, Review Date, and Rating to numeric",
+    "remove duplicate rows"
+  ]
+}

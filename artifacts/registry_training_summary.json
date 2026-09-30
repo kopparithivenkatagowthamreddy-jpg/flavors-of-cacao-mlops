@@ -1,0 +1,11 @@
+{
+  "model_name": "Flavors_of_Cacao_Rating_Model",
+  "run_id": "95e277901bc9439388d79923feb95eb6",
+  "metrics": {
+    "MAE": 0.3377878365831012,
+    "RMSE": 0.43852843706129324,
+    "R2": 0.1680878419484768,
+    "CV_MAE_mean": 0.36853249767873725
+  },
+  "model_uri": "models:/m-4cdb542720544cf892c051748e13f2fc"
+}

@@ -1,0 +1,9 @@
+{
+  "model_name": "Flavors_of_Cacao_Rating_Model",
+  "metric_used": "R2 (higher is better for this comparison)",
+  "action": "existing_production_retained",
+  "selected_version": "1",
+  "selected_r2": 0.1680878419484768,
+  "versions_checked": 2,
+  "note": "Lifecycle labels are MLflow model-version tags, not deprecated MLflow stages. Metric comparison is not a complete deployment validation."
+}

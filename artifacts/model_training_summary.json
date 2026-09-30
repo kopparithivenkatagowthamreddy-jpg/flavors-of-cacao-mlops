@@ -1,0 +1,17 @@
+{
+  "dataset": "data/raw/flavors_of_cacao.csv",
+  "target": "Rating",
+  "test_size": 0.2,
+  "random_state": 42,
+  "tuned_search": "RandomizedSearchCV, 5 candidates, 3-fold CV, n_jobs=1",
+  "seconds": 27.92,
+  "saved_models": [
+    "gradient_boosting.joblib",
+    "linear_regression.joblib",
+    "random_forest.joblib",
+    "random_forest_regressor.joblib",
+    "ridge_regression.joblib",
+    "tuned_random_forest.joblib"
+  ],
+  "fresh_metrics_file": "outputs/model_comparison_latest.csv"
+}
